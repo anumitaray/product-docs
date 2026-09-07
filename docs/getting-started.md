@@ -25,7 +25,7 @@ taskpulse init
 ✔ Created .taskpulse/state.json
 ✔ Created .taskpulse/config.json
 ✔ Added .taskpulse/cache to .gitignore
-🚀 Workspace ready! Type "taskpulse --help" for available commands.
+ Workspace ready! Type "taskpulse --help" for available commands.
 ```
 
 ---
@@ -86,8 +86,8 @@ taskpulse start 1 --branch
 
 *Output:*
 ```text
-[►] Switched task #1 to IN_PROGRESS
-[🌿] Created and switched to Git branch: feat/1-implement-user-authentication-middleware
+Switched task #1 to IN_PROGRESS
+Created and switched to Git branch: feat/1-implement-user-authentication-middleware
 ```
 
 ---
@@ -102,9 +102,9 @@ taskpulse done 1 --comment "JWT authentication middleware merged to main"
 
 *Output:*
 ```text
-[✔] Task #1 marked as COMPLETED!
-[⏱] Logged duration: 2h 45m (under estimated 3h)
-[🚀] Triggered hook: post-complete (notification sent)
+Task #1 marked as COMPLETED!
+Logged duration: 2h 45m (under estimated 3h)
+Triggered hook: post-complete (notification sent)
 ```
 
 ---
